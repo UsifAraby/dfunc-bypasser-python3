@@ -9,11 +9,11 @@ This is a tool that can be used by developers to check if exploitation using LD_
 ## Usage
 There are two options to input the disable_functions list:
 1. For help on the parameters:
-`python dfunc-bypasser.py -h`
+`python3 dfunc-python3.py -h`
 2. Provide the phpinfo url:
-`python dfunc-bypasser.py --url https://example.com/phpinfo.php`
+`python3 dfunc-python3.py --url https://example.com/phpinfo.php`
 3. Provide the local phpinfo file:
-`python dfunc-bypasser.py --file dir/phpinfo`
+`python3 dfunc-python3.py --file dir/phpinfo`
 
 ## Contributers
 1. S Ashwin Shenoi
@@ -26,6 +26,6 @@ There are two options to input the disable_functions list:
 from team [bi0s](https://bi0s.in)
 
 ## Screenshots
-![](images/screenshot-url.png)
 
-![](images/screenshot-file.png)
+<img width="1101" height="621" alt="Screenshot 2025-09-21 230651" src="https://github.com/user-attachments/assets/9db3e5d5-10d7-4163-b28a-85d9bd51f273" />
+
