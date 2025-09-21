@@ -29,5 +29,5 @@ from team [bi0s](https://bi0s.in)
 
 ## Screenshots
 
-<img width="1114" height="604" alt="Screenshot 2025-09-22 005930" src="https://github.com/user-attachments/assets/dce090be-b891-4fce-859b-93c49bdbaea4" />
+<img width="1112" height="593" alt="Screenshot 2025-09-22 010101" src="https://github.com/user-attachments/assets/3055c74d-f374-471a-b66a-b1a83c05c591" />
 
