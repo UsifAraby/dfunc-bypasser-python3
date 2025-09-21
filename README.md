@@ -9,11 +9,13 @@ This is a tool that can be used by developers to check if exploitation using LD_
 ## Usage
 There are two options to input the disable_functions list:
 1. For help on the parameters:
-`python3 dfunc-python3.py -h`
+`python3 dfunc-bypasser-python3.py -h`
 2. Provide the phpinfo url:
-`python3 dfunc-python3.py --url https://example.com/phpinfo.php`
+`python3 dfunc-bypasser-python3.py --url https://example.com/phpinfo.php`
 3. Provide the local phpinfo file:
-`python3 dfunc-python3.py --file dir/phpinfo`
+`python3 dfunc-bypasser-python3.py --file dir/phpinfo`
+4. Provide an additional header:
+`python3 dfunc-bypasser-python3.py -H "Special-Header: dev"`
 
 ## Contributers
 1. S Ashwin Shenoi
