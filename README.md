@@ -4,7 +4,7 @@
 This is a tool that can be used by developers to check if exploitation using LD_PRELOAD is still possible given the current disable_functions in the php.ini file and taking into consideration the PHP modules installed on the server.
 
 ## Installation
-`git clone https://github.com/teambi0s/dfunc-bypasser`
+`git clone https://github.com/UsifAraby/dfunc-bypasser-python3.git`
 
 ## Usage
 There are two options to input the disable_functions list:
