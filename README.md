@@ -29,7 +29,8 @@ from team [bi0s](https://bi0s.in)
 
 ## Screenshots
 
-<img width="1112" height="593" alt="Screenshot 2025-09-22 010101" src="https://github.com/user-attachments/assets/3055c74d-f374-471a-b66a-b1a83c05c591" />
+<img width="1101" height="621" alt="image" src="https://github.com/user-attachments/assets/0df047f4-4ecd-47a5-9369-fc1718a275b5" />
+
 
 ## RCE through `proc_open` :
 
