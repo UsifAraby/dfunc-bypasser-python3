@@ -55,7 +55,8 @@ if (is_resource($process)) {
 ?>
 ```
 
-<img width="1878" height="891" alt="image" src="https://github.com/user-attachments/assets/ea05cfe4-3f7c-4601-b4b5-d7454c82b651" />
+<img width="1878" height="891" alt="image" src="https://github.com/user-attachments/assets/c7ba7445-828d-42b6-b413-a241cdd08e8c" />
+
 
 
 
